@@ -95,7 +95,23 @@ for(let i = 0; i<scores.length;i++){
     }
     console.log("Your score is",scores[i])
     if(scores[i] === 100){
-        console.log("Congrats you got the to score");
+        console.log("Congrats you got the to score!");
         break
     }
+}
+// Switch statements
+const grade = "c"
+
+if(grade === "A"){
+
+}else if(grade === "B"){
+
+}else if(grade === "C"){
+    
+}else if(grade === "D"){
+    
+}else if(grade === "E"){
+    
+}else{
+    
 }
