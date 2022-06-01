@@ -66,11 +66,13 @@ else{
 }
 
 // LOGICAL OPERATORS- OR (||) and AND(&&)
+// For or - atleast once condition must be met
+// For and - all conditions must be met .
 let word = "enid@"
 if(word.length >= 12 && word.includes("@")){
     console.log("That word is mighty strong");
-}else if(word.length >= 8 || word.includes("@")){
-    console.log("The word is long enough");
+}else if(word.length >= 8 || word.includes("@")&& word.length >= 6){
+    console.log("The word is strong enough");
 }
 else{
     console.log("The word is not long enough");
