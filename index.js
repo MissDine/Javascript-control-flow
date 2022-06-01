@@ -23,3 +23,10 @@ while (i < 26) {
     i++
 }
 console.log("You are 25!");
+
+let Names = ["Mary","Sharon","Lilian","Pauline"]
+let a = 0
+while(a < Names.length){
+    console.log("I love you ", Names[a]);
+    a++
+}
