@@ -31,8 +31,14 @@ while(a < Names.length){
     a++
 }
 // DO WHILE LOOP
-let m = 0
+let m = 3
 do{
     console.log("Value is :",m);
     m++
 }while(m < 5)
+
+// IF STATEMENTS
+const age = 20
+if(age >= 18){
+    console.log("You are an adult");
+}
