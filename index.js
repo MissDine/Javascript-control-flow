@@ -100,18 +100,40 @@ for(let i = 0; i<scores.length;i++){
     }
 }
 // Switch statements
-const grade = "c"
+const grade = "C"
+switch(grade){
+    case "A":
+        console.log("You got an A!");
+    case "B":
+        console.log("You got an B!");
+    case "C":
+        console.log("You got an C!");
+    case "D":
+        console.log("You got an D!");
+    case "E":
+        console.log("You got an E!");
+    default:
+        console.log("Not a valid grade");
+}
 
-if(grade === "A"){
-
-}else if(grade === "B"){
-
-}else if(grade === "C"){
-    
-}else if(grade === "D"){
-    
-}else if(grade === "E"){
-    
-}else{
-    
+// When we use break then it prints the value defined only for instance A
+const grades = "A"
+switch(grades){
+    case "A":
+        console.log("You got an A!");
+        break
+    case "B":
+        console.log("You got an B!");
+        break
+    case "C":
+        console.log("You got an C!");
+        break
+    case "D":
+        console.log("You got an D!");
+        break
+    case "E":
+        console.log("You got an E!");
+        break
+    default:
+        console.log("Not a valid grade");
 }
