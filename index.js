@@ -88,7 +88,11 @@ if (user) {
 }
 
 // BREAK AND CONTINUE
-const scores = [50,63,55,42,90,87]
+const scores = [50,63,55,100,90,87]
 for(let i = 0; i<scores.length;i++){
     console.log("Your score is",scores[i]);
+    if(scores[i] === 100){
+        console.log("Congrats you got the to score");
+        break
+    }
 }
