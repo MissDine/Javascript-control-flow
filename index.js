@@ -86,3 +86,9 @@ if (user) {
 }else{
     console.log("You are already logged in");
 }
+
+// BREAK AND CONTINUE
+const scores = [50,63,55,42,90,87]
+for(let i = 0; i<scores.length;i++){
+    console.log("Your score is",scores[i]);
+}
