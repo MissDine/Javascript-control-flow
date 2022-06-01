@@ -140,3 +140,19 @@ switch(grades){
 
 // VARIABLES AND BLOCK SCOPE
 // Scope- the area in which a variable value is relevant
+// A  variable defined at the root of a document can be accessed anywhere within the document.
+// For instance can be accessed anywhere
+let Age = 33
+if(true){
+    console.log("Inside scope",Age);
+}
+console.log("Outside scope",Age);
+// We can redefine a code block inside a function but we cannot redefine it outsie
+// if we try let age = 50 outside we get an error but when we do this we won't
+
+let Year = 33
+if(true){
+    let Year = 50
+    console.log("Inside scope",Year);
+}
+console.log("Outside scope",Year);
