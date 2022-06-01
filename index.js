@@ -52,5 +52,15 @@ let password = "pass"
 if(password.length >= 8){
     console.log("The password is long enough");
 }else{
-    console.log("The password must be 8 characters");
+    console.log("The password is not long enough!");
+}
+
+let Password = 5
+if(Password >= 12){
+    console.log("That Password is mighty strong");
+}else if(Password >= 8){
+    console.log("The Password is long enough");
+}
+else{
+    console.log("The Password is not long enough");
 }
