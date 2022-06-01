@@ -42,3 +42,8 @@ const age = 20
 if(age >= 18){
     console.log("You are an adult");
 }
+
+const ninjas = ["Lilo", "Imma", "Enid", "Ruth", "Valentine","Maple"]
+if(ninjas.length < 3){
+    console.log("You are a big group");
+}
