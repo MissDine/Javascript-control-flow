@@ -47,3 +47,10 @@ const ninjas = ["Lilo", "Imma", "Enid", "Ruth", "Valentine","Maple"]
 if(ninjas.length < 3){
     console.log("You are a big group");
 }
+// IF ELSE STATEMENT
+let password = "pass"
+if(password.length >= 8){
+    console.log("The password is long enough");
+}else{
+    console.log("The password must be 8 characters");
+}
