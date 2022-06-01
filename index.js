@@ -77,3 +77,12 @@ if(word.length >= 12 && word.includes("@")){
 else{
     console.log("The word is not long enough");
 }
+// LOGICAL OPERATOR -NOT(!)
+let user = false
+if (user) {
+    console.log("Please sign up");
+}else if(!user){
+    console.log("Log in");
+}else{
+    console.log("You are already logged in");
+}
