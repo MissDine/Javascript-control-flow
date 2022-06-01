@@ -161,3 +161,5 @@ if(true){
 }
 // The new variable and name won't be shown in the outside scope because they are valid in the function area(scope) alone
 console.log("Outside scope",Year, name);
+//We no longer use var because of scope issues
+// With var u can access a value anywhere, inside, outside,regardless of the scope
