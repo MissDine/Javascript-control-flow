@@ -30,3 +30,9 @@ while(a < Names.length){
     console.log("I love you ", Names[a]);
     a++
 }
+// DO WHILE LOOP
+let m = 0
+do{
+    console.log("Value is :",m);
+    m++
+}while(m < 5)
