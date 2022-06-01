@@ -155,6 +155,9 @@ if(true){
     let Year = 50
     let name = "Enid"
     console.log("Inside scope",Year,name);
+    if(true){
+        console.log("2nd scope",Year);
+    }
 }
-// The new variable and name wont be shown in the outside scope because they are to be used in the function area(scope) alone
+// The new variable and name won't be shown in the outside scope because they are valid in the function area(scope) alone
 console.log("Outside scope",Year, name);
