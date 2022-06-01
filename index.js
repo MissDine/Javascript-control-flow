@@ -153,6 +153,8 @@ console.log("Outside scope",Age);
 let Year = 33
 if(true){
     let Year = 50
-    console.log("Inside scope",Year);
+    let name = "Enid"
+    console.log("Inside scope",Year,name);
 }
-console.log("Outside scope",Year);
+// The new variable and name wont be shown in the outside scope because they are to be used in the function area(scope) alone
+console.log("Outside scope",Year, name);
