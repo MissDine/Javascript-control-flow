@@ -64,3 +64,5 @@ if(Password >= 12){
 else{
     console.log("The Password is not long enough");
 }
+
+// LOGICAL OPERATORS- OR (||) and AND(&&)
