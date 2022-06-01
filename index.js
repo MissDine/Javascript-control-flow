@@ -137,3 +137,6 @@ switch(grades){
     default:
         console.log("Not a valid grade");
 }
+
+// VARIABLES AND BLOCK SCOPE
+// Scope- the area in which a variable value is relevant
